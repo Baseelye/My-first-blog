@@ -26,4 +26,6 @@ console.log(listBlog);
 
 localStorage.setItem("Blogs", JSON.stringify(listBlog));
 
+location.href = "./blog.html"
+
 });
